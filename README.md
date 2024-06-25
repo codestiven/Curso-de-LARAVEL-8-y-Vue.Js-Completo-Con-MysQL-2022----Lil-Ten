@@ -1,66 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Curso de Laravel con PHP
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Descripción del Curso
+Este curso está diseñado para ayudarte a entender y trabajar con Laravel, un popular framework de PHP. A través de diversas lecciones, aprenderás desde la configuración del entorno de trabajo hasta la integración con Vue.js.
 
-## About Laravel
+## Contenido del Curso
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. **Introducción**
+   - ⌨️ (0:00) Introducción
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+2. **Preparación del Entorno de Trabajo**
+   - ⌨️ (1:02) Preparación del entorno de trabajo (CLASE 2)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+3. **Creación de Proyectos con Laravel**
+   - ⌨️ (7:21) Crear Proyecto Con Laravel (CLASE 3)
 
-## Learning Laravel
+4. **Rutas en Laravel**
+   - ⌨️ (13:18) Rutas de Laravel (CLASE 4)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+5. **Conexión con la Base de Datos**
+   - ⌨️ (13:18) Conectando Laravel con Base de Datos (CLASE 5)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+6. **Modelos y Migraciones**
+   - ⌨️ (13:18) Creando Modelo Empleado y Migración (CLASE 6)
+   - ⌨️ (29:50) Estructura del Modelo Empleado y Migración (CLASE 7)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+7. **Listar Empleados**
+   - ⌨️ (33:16) Rutas Para Listar Empleado (CLASE 8)
+   - ⌨️ (37:06) Listar Empleados (CLASE 9)
 
-## Laravel Sponsors
+8. **Guardar Empleados**
+   - ⌨️ (38:42) Crear Ruta Para Guardar Empleados y Recibir la Data (CLASE 10)
+   - ⌨️ (42:48) Guardar Empleados (CLASE 11)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+9. **Validación de Datos**
+   - ⌨️ (13:18) Validando la Data de Empleados (CLASE 12)
 
-### Premium Partners
+10. **Actualizar Empleados**
+    - ⌨️ (50:44) Actualizar Empleados (CLASE 13)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+11. **Eliminar Empleados**
+    - ⌨️ (59:14) Eliminando Empleados (CLASE 14)
 
-## Contributing
+12. **Obtener Datos de un Empleado Específico**
+    - ⌨️ (1:02:43) Obteniendo Datos de un Empleado en Particular (CLASE 15)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+13. **Introducción a Vue.js**
+    - ⌨️ (1:05:51) Introducción a Vue.js (CLASE 16)
 
-## Code of Conduct
+## Enlace del Curso
+Puedes acceder a este curso y ver todas las lecciones en nuestro canal de YouTube a través del siguiente enlace:
+[Curso de Laravel con PHP en YouTube](https://www.youtube.com/watch?v=kW3EGwKDYqw&t=801s)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Suscríbete
+Para más videos y cursos de programación, no olvides suscribirte a nuestro canal:
+[Suscríbete aquí](https://www.youtube.com/@lilten8710)
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+¡Esperamos que disfrutes del curso y aprendas mucho sobre Laravel y PHP!
