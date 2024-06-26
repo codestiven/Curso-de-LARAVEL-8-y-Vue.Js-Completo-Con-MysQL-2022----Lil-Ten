@@ -16,6 +16,20 @@ route::get('/empleados', function () {
 });
 
 route::post('/empleados' , function(Request $request){
+
+    $request->validate([
+        'nombre' => 'required|max:50',
+        'apellidos' => 'required|max:50',
+        'cedula' => 'required|max:10',
+        'email' => 'required|max:50|email|unique:empleados',
+        'lugar_nacimiento' => 'required |max:50',
+        'genero' => 'required',
+        'estado_civil' => 'required',
+        'telefono' => 'required|numeric',
+    ]);
+
+
+
     $empleados = new Empleado();
     $empleados -> nombre = $request -> input('nombre');
     $empleados -> apellidos = $request -> input('apellidos');
