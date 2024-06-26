@@ -15,6 +15,11 @@ route::get('/empleados', function () {
     return $empleados;
 });
 
+//ruta para obtener un solo empleado
+Route::get('/empleados/{id}', function ($id) {
+    $empleados = Empleado::findOrFail($id);
+    return $empleados;
+});
 
 //ruta para crear un nuevo empleado
 route::post('/empleados' , function(Request $request){
