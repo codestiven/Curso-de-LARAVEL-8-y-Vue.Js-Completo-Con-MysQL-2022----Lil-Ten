@@ -71,3 +71,10 @@ Route::put('/empleados/{id}', function (Request $request, $id) {
     $empleados -> save();
     return "empledo actualizado";
 });
+
+//ruta para eliminar un empleado
+Route::delete('/empleados/{id}', function ($id) {
+    $empleados = Empleado::findOrFail($id);
+    $empleados -> delete();
+    return "empleado eliminado";
+});
