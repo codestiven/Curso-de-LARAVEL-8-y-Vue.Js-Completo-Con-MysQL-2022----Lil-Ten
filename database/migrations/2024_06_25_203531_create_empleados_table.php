@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('apellidos');
             $table->integer('cedula');
             $table->string('email')->unique();
-            $table->string('lugar de nacimiento');
+            $table->string('lugar_nacimiento');
             $table->enum('genero', ['Masculino', 'Femenino']);
             $table->enum('estado_civil', ['Soltero', 'Casado', 'Divorciado', 'Viudo']);
             $table->integer('telefono');
