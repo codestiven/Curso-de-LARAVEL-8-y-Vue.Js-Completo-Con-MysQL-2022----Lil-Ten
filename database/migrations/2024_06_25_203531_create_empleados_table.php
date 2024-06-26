@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('empleados', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre');
+            $table->string('apellidos');
+            $table->integer('cedula');
+            $table->string('email')->unique();
+            $table->string('lugar de nacimiento');
+            $table->enum('genero', ['Masculino', 'Femenino']);
+            $table->enum('estado_civil', ['Soltero', 'Casado', 'Divorciado', 'Viudo']);
+            $table->integer('telefono');
             $table->timestamps();
         });
     }
