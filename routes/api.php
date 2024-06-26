@@ -14,3 +14,7 @@ route::get('/empleados', function () {
     $empleados = Empleado::get();
     return $empleados;
 });
+
+route::post('/empleados' , function(Request $request){
+    return $request;
+});
